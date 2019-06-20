@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-sm-5 form-group">
+      <label for="name">Enter github username</label>
+      <input type="text" 
+      id="name" 
+      class="form-control"
+      [(ngModel)]="username">
+      <br>
+      <button 
+      class="btn btn-success"
+      (click)="onGetImage()">
+          Get Avatar
+        </button>
+        &nbsp;
+        <button 
+      class="btn btn-danger"
+      (click)="onReset()">
+          Reset
+        </button>
+    </div>
+    <img *ngIf="showImage" 
+      [src]="imagePath" 
+      alt="img">
+</div>
