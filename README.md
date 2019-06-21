@@ -15,62 +15,62 @@ Website: https://hybridx.github.io/angular7/
 Here is the component structure
 
 ```html
-<pre><font color="#729FCF"><b>.</b></font>
+.
 ├── angular.json
 ├── browserslist
-├── <font color="#729FCF"><b>e2e</b></font>
+├── e2e
 │   ├── protractor.conf.js
-│   ├── <font color="#729FCF"><b>src</b></font>
+│   ├── src
 │   │   ├── app.e2e-spec.ts
 │   │   └── app.po.ts
 │   └── tsconfig.json
 ├── karma.conf.js
 ├── package.json
 ├── README.md
-├── <font color="#729FCF"><b>src</b></font>
-│   ├── <font color="#729FCF"><b>app</b></font>
+├── src
+│   ├── app
 │   │   ├── app.component.css
 │   │   ├── app.component.html
 │   │   ├── app.component.spec.ts
 │   │   ├── app.component.ts
 │   │   ├── app.module.ts
-│   │   ├── <font color="#729FCF"><b>github-details</b></font>
+│   │   ├── github-details
 │   │   │   ├── github-details.component.css
 │   │   │   ├── github-details.component.html
 │   │   │   ├── github-details.component.spec.ts
 │   │   │   └── github-details.component.ts
-│   │   ├── <font color="#729FCF"><b>header</b></font>
+│   │   ├── header
 │   │   │   ├── header.component.html
 │   │   │   └── header.component.ts
-│   │   ├── <font color="#729FCF"><b>recipes</b></font>
+│   │   ├── recipes
 │   │   │   ├── recipe.model.ts
 │   │   │   ├── recipes.component.css
 │   │   │   ├── recipes.component.html
 │   │   │   ├── recipes.component.ts
-│   │   │   ├── <font color="#729FCF"><b>recipes-detail</b></font>
+│   │   │   ├── recipes-detail
 │   │   │   │   ├── recipes-detail.component.css
 │   │   │   │   ├── recipes-detail.component.html
 │   │   │   │   └── recipes-detail.component.ts
-│   │   │   └── <font color="#729FCF"><b>recipes-list</b></font>
-│   │   │       ├── <font color="#729FCF"><b>recipes-item</b></font>
+│   │   │   └── recipes-list
+│   │   │       ├── recipes-item
 │   │   │       │   ├── recipes-item.component.css
 │   │   │       │   ├── recipes-item.component.html
 │   │   │       │   └── recipes-item.component.ts
 │   │   │       ├── recipes-list.component.css
 │   │   │       ├── recipes-list.component.html
 │   │   │       └── recipes-list.component.ts
-│   │   ├── <font color="#729FCF"><b>shared</b></font>
+│   │   ├── shared
 │   │   │   └── ingredient.model.ts
-│   │   └── <font color="#729FCF"><b>shopping-list</b></font>
-│   │       ├── <font color="#729FCF"><b>shopping-edit</b></font>
+│   │   └── shopping-list
+│   │       ├── shopping-edit
 │   │       │   ├── shopping-edit.component.css
 │   │       │   ├── shopping-edit.component.html
 │   │       │   └── shopping-edit.component.ts
 │   │       ├── shopping-list.component.css
 │   │       ├── shopping-list.component.html
 │   │       └── shopping-list.component.ts
-│   ├── <font color="#729FCF"><b>assets</b></font>
-│   ├── <font color="#729FCF"><b>environments</b></font>
+│   ├── assets
+│   ├── environments
 │   │   ├── environment.prod.ts
 │   │   └── environment.ts
 │   ├── favicon.ico
@@ -83,7 +83,6 @@ Here is the component structure
 ├── tsconfig.json
 ├── tsconfig.spec.json
 └── tslint.json
-</pre>
 ```
 
 
