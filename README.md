@@ -12,7 +12,7 @@
 Website: https://hybridx.github.io/angular7/
 
 ### Development
-Here is the component structure
+Here is the folder structure
 
 ```html
 .
