@@ -12,7 +12,6 @@ import { RecipesDetailComponent } from './recipes/recipes-detail/recipes-detail.
 import { RecipesItemComponent } from './recipes/recipes-list/recipes-item/recipes-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
-import { GithubDetailsComponent } from './github-details/github-details.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +22,6 @@ import { GithubDetailsComponent } from './github-details/github-details.componen
     RecipesItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    GithubDetailsComponent
   ],
   imports: [
     BrowserModule,
