@@ -1,12 +1,3 @@
-# Get GitHub Avatar
-<table>
-<tr>
-<td>
-   An application using the angular framework (angular 7) to fetch github avatar on providing username.
-</table>
-</tr>
-</td>
-
 ### You can check it out here!
 
 Website: https://hybridx.github.io/angular7/
