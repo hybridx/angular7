@@ -1,13 +1,10 @@
-<app-header></app-header>
+<app-header (recipe)="route($event);"></app-header>
 <div class="container">
-    <h3>
-      Static Components
-    </h3>
   <div class="row">
     <div class="col-md-12">
       <h2>
-        <app-recipes></app-recipes>
-        <app-shopping-list></app-shopping-list>
+        <app-recipes *ngIf="show"></app-recipes>
+        <app-shopping-list *ngIf="!show"></app-shopping-list>
       </h2>
     </div>
   </div>
