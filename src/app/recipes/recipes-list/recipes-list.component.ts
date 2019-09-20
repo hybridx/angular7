@@ -7,10 +7,14 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipes-list.component.css']
 })
 export class RecipesListComponent implements OnInit {
+
   recipes: Recipe[] =[
     new Recipe('Pizza Recipe',
     "A great Pizza",
-    "https://upload.wikimedia.org/wikipedia/commons/0/0b/Recipe_Unlimited_logo.png") 
+    "https://upload.wikimedia.org/wikipedia/commons/0/0b/Recipe_Unlimited_logo.png"),
+    new Recipe('Another Pizza Recipe',
+    "Another great Pizza",
+    "https://upload.wikimedia.org/wikipedia/commons/0/0b/Recipe_Unlimited_logo.png")
   ];
 
   constructor() { }
